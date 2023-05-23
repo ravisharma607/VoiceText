@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Montserrat:ital,wght@0,300;0,900;1,400;1,600;1,900&family=Poppins:ital,wght@0,200;0,300;1,600&family=Schibsted+Grotesk:wght@400;500;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Finger Paint', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Schibsted Grotesk', sans-serif;
+transition: all 0.5s;
+}
+body{
+    background: rgb(239, 239, 248);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding:50px 20px;
+    border-radius: 4px;
+}
+.container h2{
+    font-size: 32px;
+    color: #0b9965;
+}
+.container p{
+    font-size: 18px;
+    color: #025838;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .main-content textarea{
+    width: 500px;
+    height: 300px;
+    resize: none;
+    margin: 10px auto;
+    font-size: 16px;
+    padding:15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+.actions{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.actions .btn{
+    background: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.actions .btn:hover{
+    border: none;
+    background: #0b9965;
+    color: #fff;
+}
+.icons ion-icon{
+    font-size: 35px;
+    cursor: pointer;
+}
+.icons .on:hover ion-icon{
+    color: #0b9965;
+}
+.icons .on:hover ion-icon.active{
+    color: #0b9965;
+}
+.icons .off:hover ion-icon{
+    color: red;
+}
+.icons .off:hover ion-icon.active{
+    color: red;
+}
+.container hr{
+    height: 1px;
+    width: 100%;
+    background-color: #0b9965;
+}
+
+@media screen and (max-width:600px){
+    body{
+        height: auto;
+    }
+    .container .main-content textarea{
+        height: fit-content;
+        width: fit-content;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .actions .btn{
+        margin: 10px 0;
+    }
+}
