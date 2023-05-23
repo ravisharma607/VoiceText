@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VoiceText/static/css/main.1132fb02.css",
+    "main.js": "/VoiceText/static/js/main.cda349da.js",
+    "index.html": "/VoiceText/index.html",
+    "main.1132fb02.css.map": "/VoiceText/static/css/main.1132fb02.css.map",
+    "main.cda349da.js.map": "/VoiceText/static/js/main.cda349da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1132fb02.css",
+    "static/js/main.cda349da.js"
+  ]
+}
